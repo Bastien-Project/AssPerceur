@@ -1,0 +1,104 @@
+body>h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+/*image*/
+.admin-accueil {
+    background: url('../images/admin.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 80px;
+}
+
+nav>h1>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.acceuil {
+    display: block;
+}
+
+div div {
+    justify-content: space-evenly;
+}
+
+.form-api {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-api>div {
+    width: auto;
+    display: block;
+    text-align: center;
+}
+
+form>label {
+    font-size: large;
+}
+
+form>input,
+form>textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    background-color: #3337;
+    text-align: center;
+    color: #000;
+}
+
+#userTable,
+#annonceTable,
+#roleTable,
+#localisationTable,
+#planteTable,
+#messageTable,
+#candidaterTable {
+    width: 80%;
+    text-align: center;
+}
+
+#userTable tbody td,
+#annonceTable tbody td,
+#roleTable tbody td,
+#localisationTable tbody td,
+#planteTable tbody td,
+#messageTable tbody td,
+#candidaterTable tbody td {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+#userTable tbody td:first-child,
+#annonceTable tbody td:first-child,
+#roleTable tbody td:first-child,
+#localisationTable tbody td:first-child,
+#planteTable tbody td:first-child,
+#messageTable tbody td:first-child,
+#candidaterTable tbody td:first-child {
+    border-left: 1px solid #000;
+}
+
+button {
+    cursor: pointer;
+}
